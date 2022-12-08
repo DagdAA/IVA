@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>	
+
+	<header><p id="dagda">DAGDA</p></header>
+
+<h1 id="titulo">ARGENTINA Y LOS DISTINTOS TIPOS DE IVA</h1>
+
+	<section id="texto">
+	<p>
+		El Impuesto al Valor Agregado es, a modo de resumen, una carga impositiva al consumo. En esta breve guía sobre el IVA te contamos cómo calcularlo, cuáles son las alícuotas que aplican en nuestro país y por qué es tan importante para los emprendimientos.<br>
+		En Argentina hay 3 tasas de IVA, conocidas como alícuotas: <br><br>
+		<ol class="tiposIva">
+			<li> 21% es la tasa general.</li>
+			<li>10,5% la más común, es para algunos bienes de capital y de primera necesidad.</li>
+			<li>27%, que aplica para ciertas actividades, como energía eléctrica y telecomunicaciones.</li>
+		</ol><br>
+	</p>
+	</section>
+
+
+	<section id="iva">
+		<div class="ConteinerIva">
+			<h2>	calcular IVA </h2><br>
+			<input type="text" name="monto" id="precio" value="PRECIO"><br><br>
+			<input type="text" name="iva" id="IVA" value="10.5"><br><br>
+			<input type="button" name="Iva" id="enviar" onclick="Iva();" value="Calcular"><br><br>
+			<p id="totalIva">total con IVA </p><br>
+			<div id="resultado">resultado</div><br><br>
+		</div>
+	</section>
+
+
+	<footer></footer>
+
+</body>
+<script type="text/javascript" src="MiScript.js"></script>
+</html>
