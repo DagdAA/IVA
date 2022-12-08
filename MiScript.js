@@ -7,5 +7,5 @@ function Iva(){
 	IVA =  (precio * IVA)/100;
 	total = parseFloat(precio + IVA).toFixed(2);
 	
-	resultado.innerHTML =  total;
+	resultado.innerHTML =  "$ " + total;
 }
