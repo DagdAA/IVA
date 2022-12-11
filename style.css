@@ -94,8 +94,8 @@ footer > div{
 	padding-top: 5%;
 }
 
-@media (max-width:400px){
-body{
+@media screen (max-width:400px){
+
 Background-color:#000000;
-}
+
 }
